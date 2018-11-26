@@ -12,7 +12,7 @@ use Rack::Session::EncryptedCookie,
 
 get '/' do
   status 200
-  return "Mani's Payment POC Backend All Set!!!"
+  return "Mani Payment POC Backend All Set"
 end
 
 post '/charge' do
